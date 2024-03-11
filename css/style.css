@@ -1,0 +1,40 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&family=Fredoka+One&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 5.5rem;
+  /*========== Colors ==========*/
+  /* Color mode HSL(hue, saturation, lightness) */
+  --first-color: hsl(49, 100%, 53%);
+  --second-color: hsl(349, 100%, 50%);
+  --title-color: hsl(0, 0%, 0%);
+  --text-color: hsl(0, 0%, 33%);
+  --body-color: hsl(0, 0%, 100%);
+  --name-color: hsl(147, 50%, 47%);
+  --container-color: hsl(218, 67%, 98%);
+
+  /*========== Font and typography ==========*/
+  /* .5rem = 8px | 1rem = 16px ... */
+  --body-font: "Epilogue", sans-serif;
+  --second-font: "Fredoka One", sans-serif;
+  --biggest-font-size: 5.5rem;
+  --bigger-font-size: 3.75rem;
+  --h1-font-size: 2.5rem;
+  --h2-font-size: 1.75rem;
+  --h3-font-size: 1.5rem;
+  --larger-font-size: 1.25rem;
+  --large-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+
+  /*========== Font weight ==========*/
+  --weight-400: 400;
+
+  /*========== Transition ==========*/
+  --transition: ease-in-out;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
